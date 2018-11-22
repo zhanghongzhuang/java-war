@@ -1,0 +1,5 @@
+script:
+  - mvn clean install -Dmaven.wagon.http.ssl.insecure=true -Dmaven.wagon.http.ssl.allowall=true -Dmaven.test.skip=true
+  - cp -prf target/demo-0.0.0-SNAPSHOT.jar service/file
+
+image: root/demo:test0.0.1
