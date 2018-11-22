@@ -1,5 +1,5 @@
 # service
-FROM sspaas.net/renyf/jdk:1.7
+FROM registrytest.sspaas.net/registry/jdk:1.8
 
 # service scripts
 COPY run.sh /run.sh
